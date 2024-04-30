@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  /* width: 1920px; */
+  padding: 20vh;
+  padding-bottom: 10vh;
+  padding-top: 2vh;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2vh;
+}
+
+.nav-logo {
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: Epilogue;
+  margin: 2vh;
+  padding-left: 4vh;
+  color: #2d2d2d;
+}
+
+.branding {
+  padding: 8vh;
+  color: #2d2d2d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.branding-div {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-family: Epilogue;
+}
+
+.branding-secondary-header {
+  font-weight: 500;
+  padding-bottom: 4vh;
+}
+
+.branding-header {
+  font-size: 5vh;
+  padding-bottom: 3vh;
+}
+
+.branding-text {
+  text-align: left;
+  margin-top: 1vh;
+}
+
+.branding-contact {
+  margin-top: 5vh;
+  /* width: 7vh; */
+  border-color: transparent;
+  background-color: #2d2d2d;
+  color: white;
+  font-family: Epilogue;
+  font-size: 2vh;
+  font-weight: 400;
+  padding: 2vh 5vh 2vh 5vh;
+}
+
+.partners {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20vh;
+  margin-top: 10vh;
+  padding-left: 10vh;
+  width: 80vh;
+}
+
+.designs {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3vh;
+  margin-top: 20vh;
+}
+
+.designs-div {
+  color: #2d2d2d;
+  font-family: Epilogue;
+  text-align: center;
+  width: 24vh;
+}
+
+.designs-header {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-weight: 600;
+  font-size: 2vh;
+}
+
+.designs-art {
+  width: 29vh;
+}
+
+.designs-product {
+  width: 29vh;
+}
+
+.latest-work {
+  font-family: Epilogue;
+  color: #2d2d2d;
+  margin: 0;
+  margin-top: 15vh;
+}
+
+.latest-work > h2 {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 5vh;
+  font-weight: 600;
+}
+
+.works {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+
+.works-header {
+  font-weight: 600;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+.works-text {
+  font-weight: 400;
+}
+
+.testimonial {
+  margin: 0;
+  font-family: Epilogue;
+  color: #2d2d2d;
+  margin-top: 10vh;
+}
+
+.testimonial > h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.testimonial-div {
+  margin: 0;
+  display: flex;
+  justify-content: right;
+  /* gap: 1vh; */
+  /* margin-left: 18vh; */
+  flex-wrap: wrap;
+}
+
+.testimonial-text {
+  font-weight: 600;
+  width: 27vh;
+  margin-bottom: 5vh;
+}
+
+.comments {
+  margin-top: 10vh;
+  width: 40vh;
+}
+
+.testimonial-user {
+  display: flex;
+  justify-content: left;
+  gap: 2vh;
+}
+
+.testimonial-name {
+  margin: 1vh 0vh 1vh 0vh;
+  font-weight: 600;
+}
+
+.testimonial-img {
+  width: 5vh;
+}
+
+.footer {
+  font-family: Epilogue;
+  color: #2d2d2d;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15vh;
+  padding-left: 20vh;
+  padding-right: 30vh;
+}
+
+.footer-text {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  width: 50vh;
+}
+
+.footer-header {
+  font-size: 3vh;
+  font-weight: 600;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: left;
+  gap: 2vh;
+}
+
+.footer-form {
+  margin-right: 15vh;
+  margin-top: 5vh;
+}
+
+.footer-form > input {
+  border-color: transparent;
+  margin-bottom: 3vh;
+}
+
+.form-button {
+  border-color: transparent;
+  padding: 2vh;
+  background-color: #2d2d2d;
+  color: white;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  font-size: 1.5vh;
+  font-weight: 500;
+}
